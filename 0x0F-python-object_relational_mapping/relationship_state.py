@@ -1,4 +1,3 @@
-
 #!/usr/bin/python3
 """Lists states"""
 
@@ -22,4 +21,3 @@ class State(Base):
         cascade="all, delete-orphan",
         backref=backref("state", cascade="all"),
         single_parent=True)
-
